@@ -1,5 +1,6 @@
 
 var express = require('express'),
+	config = require('./config.js'),
 	bodyParser = require('body-parser'),
 	routes = require('./routes.js');
 
