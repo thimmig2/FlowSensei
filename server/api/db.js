@@ -1,8 +1,9 @@
 
 var mongoose = require('mongoose'),
+	config = require('./config.js'),
 	hubSchema = require('./models/hub.js'),
 	flowSchema = require('./models/flow.js'),
-	sourceSchema = require('./models/source.js'),
+	sourceSchema = require('./models/source.js');
 
 mongoose.connect(config.db);
 

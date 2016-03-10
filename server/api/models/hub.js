@@ -8,8 +8,14 @@ var hubSchema = new Schema({
         unique: true,
         'default': shortid.generate
     },
+    user: {
+        type: String,
+        ref: 'User'
+    },
     name: String,
     company: String
 }, {
     timestamps: true
 });
+
+module.exports = hubSchema;

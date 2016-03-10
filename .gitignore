@@ -1,0 +1,3 @@
+*/node_modules
+server/api/db/data
+server/api/db/mongod.conf

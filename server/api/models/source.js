@@ -10,7 +10,7 @@ var sourceSchema = new Schema({
     },
     hub: {
         type: String,
-        ref 'Hub'
+        ref: 'Hub'
     },
     pinNumber: Number,
     attached: Date, // when the source was attachd to the pin
@@ -23,3 +23,5 @@ var sourceSchema = new Schema({
 }, {
     timestamps: true
 });
+
+module.exports = sourceSchema;
